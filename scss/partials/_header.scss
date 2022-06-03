@@ -1,0 +1,20 @@
+$naranja: #ff6b33;
+$blanco: #ffffff;
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: $naranja;
+}
+
+.nav-link {
+  margin-right: 10px;
+  color: white;
+  &:hover {
+    color: orangered !important;
+  }
+}
+.navbar-brand {
+  font-size: 35px;
+}
